@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    background-color: orange;
+}
+
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 450px;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color: rgb(255, 140, 0);
+}
+
+.card .fotoprofilo {
+    position: absolute;
+    left: 50%;
+    top: 17%;
+    transform: translate(-50%, -50%);
+    width: 120px;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.card .name {
+    position: absolute;
+    left: 58%;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 27px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+}
+
+.card .description {
+    position: absolute;
+    left: 60%;
+    top: 43%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card .tiktok {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60%;
+    left: 70px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
+
+.card .insta {
+    position: absolute;
+    left: 50%;
+    top: 64%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.card .insta i {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card .github {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 51%;
+    left: 190px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
